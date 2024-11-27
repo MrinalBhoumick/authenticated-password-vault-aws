@@ -1,0 +1,2 @@
+cd backend
+aws cloudformation deploy --template-file cfn-template.yaml --stack-name Cognito-Application-Stack --capabilities CAPABILITY_IAM
